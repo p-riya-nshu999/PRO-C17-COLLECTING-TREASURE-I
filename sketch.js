@@ -81,10 +81,10 @@ function draw() {
         gameState=END;
         
     
-         cashG.destroyEach;
-         diamondsG.destroyEach;
-         jewelryG.destroyEach;
-         swordGroup.destroyEach;
+        // cashG.destroyEach;
+        // diamondsG.destroyEach;
+         //jewelryG.destroyEach;
+         //swordGroup.destroyEach;
 
         // cashG.destroy();
         // diamondsG.destroy();
@@ -96,10 +96,10 @@ function draw() {
         // jewelryG.destroyEach();
         // swordGroup.destroyEach();
         
-        // cashGdestroyEach();
-        // diamondsGdestroyEach();
-        // jewelryGdestroyEach();
-        // swordGroupdestroyEach();
+         cashGdestroyEach();
+         diamondsGdestroyEach();
+         jewelryGdestroyEach();
+         swordGroupdestroyEach();
         
         cashG.setVelocityYEach(0);
         diamondsG.setVelocityYEach(0);
